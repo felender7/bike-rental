@@ -1,0 +1,7 @@
+{
+  "name": "bike-rental",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
