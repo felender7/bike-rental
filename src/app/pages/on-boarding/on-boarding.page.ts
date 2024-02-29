@@ -9,6 +9,10 @@ export class OnBoardingPage implements OnInit {
 
   constructor() { }
 
+  swiperSlideChanged(e: any){
+    console.log('changed:', e)
+  }
+
   ngOnInit() {
   }
 
