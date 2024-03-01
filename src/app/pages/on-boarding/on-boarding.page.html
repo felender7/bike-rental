@@ -1,7 +1,37 @@
 <ion-content>
   <swiper-container (slidechange)="swiperSlideChanged($event)" [loop]="true" [pagination]="true">
-    <swiper-slide>Slide 1</swiper-slide>
-    <swiper-slide>Slide 2</swiper-slide>
-    <swiper-slide>Slide 3</swiper-slide>
+    <swiper-slide>
+      <div class="onboarding-image-parent">
+        <img src="assets/slider_1.png" class="onboarding-image1" alt="" />
+        <img src="assets/slider_01_1.png" alt="" class="onboarding-image2" />
+      </div>
+      
+      <h1 class="onboarding-content"> Explore the City on Two Wheels with Ease</h1>
+        <p>Discover the freedom of urban exploration with our intuitive bike rental app.</p>
+    
+  
+    </swiper-slide>
+
+    <swiper-slide>
+      <div class="onboarding-image-parent">
+        <img src="assets/slider_2.png" class="onboarding-image1" alt="" />
+        <img src="assets/slider_02_2.png" alt="" class="onboarding-image2" />
+      </div>
+      <h1 class="onboarding-content">  Convenient, Affordable, and Eco-Friendly Travel</h1>
+      <p>At bike renatal co, we believe in making sustainable travel accessible to everyone. </p>
+   
+        
+
+    </swiper-slide>
+
+    <swiper-slide>
+
+      <div class="onboarding-image-parent">
+        <img src="assets/slider_3.png" class="onboarding-image1" alt="" />
+        <img src="assets/3.png" alt="" class="onboarding-image2" />
+      </div>
+      <h1 class="onboarding-content"> Seamless Booking and On-the-Go Support</h1>
+      <p>Booking a bike has never been easier. Simply download our app, locate the nearest rental station using our interactive map, </p>
+    </swiper-slide>
   </swiper-container>
 </ion-content>
