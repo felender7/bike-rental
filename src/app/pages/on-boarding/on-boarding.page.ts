@@ -15,5 +15,6 @@ export class OnBoardingPage implements OnInit {
 
   ngOnInit() {
   }
+  
 
 }
