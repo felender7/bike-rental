@@ -1,0 +1,30 @@
+
+<ion-content class="ion-padding" fullscreen>
+  <div class="header">
+    <ion-label>Rent A</ion-label>
+    <br>
+    <span>Bike</span>
+  </div>
+
+  
+  <div class="ion-text-center">
+  <ion-item>
+    <ion-label position="floating">Email</ion-label>
+    <ion-input type="email"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Password</ion-label>
+    <ion-input type="password"></ion-input>
+  </ion-item>
+  <hr>
+  <ion-button expand="block" (click)="login()">Login</ion-button>
+
+  <ion-button expand="block" color="danger">
+    <ion-icon slot="start" name="logo-google"></ion-icon>
+    Login with Gmail
+  </ion-button>
+
+  <p class="ion-text-center">Don't have an account? <a routerLink="/signup">Sign Up</a></p>
+  </div>
+</ion-content>

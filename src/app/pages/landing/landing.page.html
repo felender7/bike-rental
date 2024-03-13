@@ -1,21 +1,21 @@
 
 
-<ion-content [fullscreen]="true">
+<ion-content [fullscreen]="true" class="background-container ">
 <div class="header">
   <ion-label>Rent A</ion-label>
   <br>
   <span>Bike</span>
 </div>
 
-<img src="assets/bike.png" alt="">
+<img src="assets/bike.png" alt="" class="img-landing">
 
 <div class="buttons">
   <ion-button [routerLink]="['/login-page']" expand="block" shape="round">Login</ion-button>   
   <ion-item lines="none">
     <ion-label>
-      Don't have an account?
+      Don't have an account ?
     </ion-label>
-   <ion-button   [routerLink]="['/signup']"  color="#ffaf34" fill="clear">Create A Account</ion-button> 
+   <ion-button [routerLink]="['/signup']"  color="warning" fill="clear" class="btn-warning">Create an Account</ion-button> 
   </ion-item>
 </div>
 </ion-content>

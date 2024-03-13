@@ -27,4 +27,62 @@
 
 
 
+
+
+
+
+.btn-warning{
+    font-weight: bold;
+  }
+
+  .login-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4; /* Background color for the entire page */
+  }
   
+  .login-form {
+    max-width: 300px;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .logo-section {
+    margin-bottom: 20px;
+  }
+  
+  .logo-section img {
+    width: 100px; /* Adjust the width of the logo */
+    height: auto;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .signup-link {
+    margin-top: 20px;
+  }
+  
+  .signup-link ion-label {
+    margin-right: 5px;
+  }
+
+  .header{
+    margin:16px;
+    ion-label{
+        font-size: 4rem;
+        font-weight: bold;
+    }
+
+
+    span{
+        font-size: 4rem;
+        font-weight: bold;
+        color: #ffaf34;
+    }
+}
