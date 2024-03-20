@@ -1,20 +1,52 @@
-<ion-header [translucent]="true">
-  <ion-toolbar class="primary">
+<ion-header>
+  <ion-toolbar>
     <ion-title>
-      Home
+     Dashboard
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Home</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content class="ion-padding">
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Rent a Bike</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <p>Explore our bikes and start your adventure!</p>
+            <ion-button expand="block" routerLink="/rentals">View Bikes</ion-button>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+      <ion-col size="6">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Your Bookings</ion-card-title>
+          
+          </ion-card-header>
+          <ion-card-content>
+            <p>Current bookings and manage your reservations.</p>
+            <ion-button expand="block" routerLink="/bookings">View Bookings</ion-button>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="12">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Upcoming Events</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <p>Stay updated with our upcoming biking events and join the fun!</p>
+            <ion-button expand="block">View Events</ion-button>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>

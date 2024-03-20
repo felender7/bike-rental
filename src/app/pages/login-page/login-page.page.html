@@ -6,25 +6,27 @@
     <span>Bike</span>
   </div>
 
-  
+
   <div class="ion-text-center">
   <ion-item>
     <ion-label position="floating">Email</ion-label>
     <ion-input type="email"></ion-input>
+    <ion-icon name="mail-outline" slot="end"></ion-icon>
   </ion-item>
 
   <ion-item>
     <ion-label position="floating">Password</ion-label>
     <ion-input type="password"></ion-input>
+    <ion-icon name="key-outline" slot="end"></ion-icon>
   </ion-item>
-  <hr>
-  <ion-button expand="block" (click)="login()">Login</ion-button>
-
+  
+  <ion-button expand="block" (click)="login()" [routerLink]="['/home']" style="margin-top: 30px;">Login</ion-button>
+ 
   <ion-button expand="block" color="danger">
     <ion-icon slot="start" name="logo-google"></ion-icon>
     Login with Gmail
   </ion-button>
-
-  <p class="ion-text-center">Don't have an account? <a routerLink="/signup">Sign Up</a></p>
+  <p class="ion-text-center" style="margin-top: 20px;"> <a routerLink="/forgot-password">Forget Password </a></p>
+  <p class="ion-text-center">Don't have an account? <a routerLink="/signup"><span>Sign Up</span></a></p>
   </div>
 </ion-content>
